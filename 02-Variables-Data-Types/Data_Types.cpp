@@ -1,7 +1,7 @@
-#include <iostream>                                 // Input output stream library
-using namespace std;                                // std namespace use karne ke liye
+#include <iostream>                               
+using namespace std;                               
 
-int main() {                                        // Program yahin se start hota hai (main function)
+int main() {                                       
     int i = 100;                                    // Integer: poora number
     float f = 5.75f;                                // Float: decimal number (kam precision)
     double d = 3.14159265359;                       // Double: decimal number (zyada precision)
@@ -14,5 +14,5 @@ int main() {                                        // Program yahin se start ho
     cout << "char: " << c << endl;                  // Char print karo
     cout << "bool: " << flag << endl;               // Bool print hota hai: true = 1, false = 0
     cout << "string: " << s << endl;                // String print karo
-    return 0;                                       // Program successfully khatam
-}                                                   // main function end
+    return 0;                                      
+}                                                   
